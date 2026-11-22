@@ -1,0 +1,11 @@
+{
+  "org": "alexcrichton",
+  "repo": "ssh2-rs",
+  "versions": [
+    {
+      "commit": "5b39b5fabb6b5a6b953519a571cd6af30d460ac3",
+      "tag": "libssh2-sys-0.3.2",
+      "parsed_at": "2026-11-22T14:22:11.482609+00:00"
+    }
+  ]
+}
