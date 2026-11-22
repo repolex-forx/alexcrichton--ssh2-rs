@@ -46,6 +46,110 @@
       ],
       "ast": [
         "aggregate/ast/5b39b5fabb6b5a6b953519a571cd6af30d460ac3/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5b39b5fabb6b5a6b953519a571cd6af30d460ac3.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "bitflags",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "bitflags",
+          "githubRepo": "bitflags",
+          "githubUrl": "https://github.com/bitflags/bitflags",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libc",
+          "ecosystem": "CARGO",
+          "version": "0.2",
+          "githubOrg": "rust-lang",
+          "githubRepo": "libc",
+          "githubUrl": "https://github.com/rust-lang/libc",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "libssh2-sys",
+          "ecosystem": "CARGO",
+          "version": "0.3.2",
+          "githubOrg": "alexcrichton",
+          "githubRepo": "ssh2-rs",
+          "githubCommit": "93a2dfed69564c9a79657439d11b13452e97f5e3",
+          "githubTag": "0.3.2",
+          "githubUrl": "https://github.com/alexcrichton/ssh2-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "parking_lot",
+          "ecosystem": "CARGO",
+          "version": "0.12",
+          "githubOrg": "Amanieu",
+          "githubRepo": "parking_lot",
+          "githubUrl": "https://github.com/Amanieu/parking_lot",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "lock_api",
+          "ecosystem": "CARGO",
+          "version": "0.4.14",
+          "githubOrg": "Amanieu",
+          "githubRepo": "parking_lot",
+          "githubUrl": "https://github.com/Amanieu/parking_lot",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/lock_api-0.4.14/src/mutex.rs"
+        },
+        {
+          "packageName": "openssl-sys",
+          "ecosystem": "CARGO",
+          "version": "0.9.118",
+          "githubOrg": "rust-openssl",
+          "githubRepo": "rust-openssl",
+          "githubUrl": "https://github.com/rust-openssl/rust-openssl",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/openssl-sys-0.9.118/src/lib.rs"
+        },
+        {
+          "packageName": "cc",
+          "ecosystem": "CARGO",
+          "version": "1.11.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cc-rs",
+          "githubUrl": "https://github.com/rust-lang/cc-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cc-1.11.3/src/lib.rs"
+        },
+        {
+          "packageName": "pkg-config",
+          "ecosystem": "CARGO",
+          "version": "0.3.34",
+          "githubOrg": "rust-lang",
+          "githubRepo": "pkg-config-rs",
+          "githubCommit": "a8852cc148f8f7d504bf3a62444c298dcd3637f0",
+          "githubTag": "0.3.34",
+          "githubUrl": "https://github.com/rust-lang/pkg-config-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/pkg-config-0.3.34/src/lib.rs"
+        },
+        {
+          "packageName": "ctest2",
+          "ecosystem": "CARGO",
+          "version": "0.4.10",
+          "githubOrg": "JohnTitor",
+          "githubRepo": "ctest2",
+          "githubCommit": "3b51e8e288b5d72d64e459c48262cbda94ea0cd9",
+          "githubTag": "v0.4.10",
+          "githubUrl": "https://github.com/JohnTitor/ctest2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ctest2-0.4.10/src/lib.rs"
+        }
       ]
     }
   ],
